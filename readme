@@ -1,0 +1,20 @@
+https://proglib.io/p/prochnyy-fundament-dlya-api-docker-node-js-nginx-postgres-2022-10-05
+
+Старт
+docker-compose up
+
+docker-compose up --build -d
+Для запуска в Ubuntu - sudo
+
+
+DB_HOST=db // db - название контейнера в db
+
+Открыть взаимодействие в контейнер Node из консоли
+(появится приписка opt/server)
+docker-compose exec app sh
+(для Ubuntu - sudo)
+
+Выйти из контейнера
+exit
+
+
